@@ -1,2 +1,16 @@
 # Claude Code local settings (per-machine, not shared)
 .claude/
+.claude/settings.local.json
+
+# STM32CubeIDE build output
+STM32CubeIDE/Debug/
+STM32CubeIDE/Release/
+
+# Un-ignore Eclipse project files for the STM32CubeIDE sub-project
+# (the repo-level .gitignore excludes .project/.cproject/.settings globally)
+!STM32CubeIDE/.project
+!STM32CubeIDE/.cproject
+!STM32CubeIDE/.settings/
+
+# Keil MDK-ARM build output
+MDK-ARM/01-RTC/

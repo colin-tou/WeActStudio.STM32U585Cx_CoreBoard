@@ -30,7 +30,6 @@ extern "C" {
 #include "ux_device_cdc_acm.h"
 #include "ux_device_descriptors.h"
 #include "ux_dcd_stm32.h"
-
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
